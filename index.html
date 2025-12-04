@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SimpleSwitch AI – Never Miss Another Customer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">SimpleSwitch<span>AI</span></div>
+      <nav class="nav">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#who-its-for">Who It’s For</a>
+        <a href="#free-audit">Free Audit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Turn Missed Calls Into Booked Jobs Automatically.</h1>
+          <p>
+            SimpleSwitch AI plugs into your business phone and turns missed calls
+            and slow replies into instant text conversations that capture the job
+            details and book appointments for you.
+          </p>
+          <ul class="hero-bullets">
+            <li>✅ Missed call → instant text reply</li>
+            <li>✅ AI collects job details & availability</li>
+            <li>✅ Sends you ready-to-book jobs by text or email</li>
+          </ul>
+          <a href="#free-audit" class="btn-primary">Get My Free Automation Audit</a>
+        </div>
+        <div class="hero-card">
+          <h2>Free 3-Minute Automation Audit</h2>
+          <p>See how many jobs you’re losing every week to missed calls & slow follow-up.</p>
+          <ul class="hero-card-list">
+            <li>Estimate revenue lost to missed calls</li>
+            <li>Quick-win automations for your business</li>
+            <li>No tech skills needed</li>
+          </ul>
+          <a href="#free-audit" class="btn-secondary">Start My Audit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <h2>How SimpleSwitch Works</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>1. Customer Calls</h3>
+            <p>
+              A customer calls your business line while you’re on a job, driving, or closed.
+            </p>
+          </div>
+          <div class="card">
+            <h3>2. Instant Text Reply</h3>
+            <p>
+              If you miss the call, SimpleSwitch instantly texts them: “Hey, this is
+              <strong>your business</strong>. How can we help?”
+            </p>
+          </div>
+          <div class="card">
+            <h3>3. AI Captures the Job</h3>
+            <p>
+              Our AI asks a few simple questions, collects job details, urgency, and
+              availability, then sends everything to you, ready to schedule.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO IT'S FOR -->
+    <section id="who-its-for" class="section section-alt">
+      <div class="container">
+        <h2>Built for Local Service Businesses</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Plumbers & HVAC</h3>
+            <p>Capture emergency calls and after-hours leads without paying for a call center.</p>
+          </div>
+          <div class="card">
+            <h3>Electricians & Contractors</h3>
+            <p>Stop losing jobs while you’re on a ladder, roof, or deep in a project.</p>
+          </div>
+          <div class="card">
+            <h3>Cleaners & Home Services</h3>
+            <p>Turn “sorry I missed your call” into “your job is booked” on autopilot.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREE AUDIT / LEAD FORM -->
+    <section id="free-audit" class="section">
+      <div class="container audit-inner">
+        <div class="audit-copy">
+          <h2>Free Automation Audit for Your Business</h2>
+          <p>
+            Fill this out and get a simple PDF audit showing:
+          </p>
+          <ul>
+            <li>How many calls similar businesses miss every month</li>
+            <li>What that means in lost revenue for your trade</li>
+            <li>The 2–3 automations that would help you the most</li>
+          </ul>
+          <p class="small">
+            <strong>No spam.</strong> You’ll get the audit PDF and one follow-up email with options.
+          </p>
+        </div>
+
+        <div class="audit-form-card">
+          <h3>Get Your Free Automation Audit</h3>
+          <form id="lead-form">
+            <div class="form-group">
+              <label for="name">Your Name*</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="businessName">Business Name*</label>
+              <input type="text" id="businessName" name="businessName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Best Email*</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Cell or Business Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="industry">Industry*</label>
+              <select id="industry" name="industry" required>
+                <option value="">Select one...</option>
+                <option value="Plumbing">Plumbing</option>
+                <option value="HVAC">HVAC</option>
+                <option value="Electrical">Electrical</option>
+                <option value="General Contracting">General Contracting</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Landscaping">Landscaping</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Anything specific you’re struggling with?</label>
+              <textarea id="message" name="message" rows="3"
+                placeholder="Missed calls, nights/weekends, too many voicemails, etc."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full">Send My Free Audit</button>
+            <p id="form-status" class="form-status"></p>
+          </form>
+
+          <div id="form-success" class="form-success hidden">
+            <h3>Audit Requested ✅</h3>
+            <p>
+              Your details are in. Check your email for your automation audit.
+              If you don’t see it in a few minutes, check spam or promotions.
+            </p>
+            <p>
+              Want help getting this set up? Reply to the email or book a quick call
+              from the link inside.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Questions About SimpleSwitch?</h2>
+        <p>
+          If you’d rather talk it through, just reply to your audit email from
+          <strong>automate@simpleswitchai.com</strong> and tell me about your business.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SimpleSwitch AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
