@@ -2,7 +2,7 @@
 
 // 1) Update this AFTER you deploy your Firebase Function
 // Example: https://us-central1-your-project-id.cloudfunctions.net/api
-const FUNCTION_BASE_URL = "https://us-central1-YOUR_FIREBASE_PROJECT_ID.cloudfunctions.net/api";
+const FUNCTION_BASE_URL = "https://us-central1-simpleswitch-leads.cloudfunctions.net/api";
 
 const form = document.getElementById("lead-form");
 const statusEl = document.getElementById("form-status");
