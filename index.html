@@ -102,61 +102,15 @@
     </section>
 
 
-    <!-- DEMO + WORKFLOW SECTION (INSERTED HERE) -->
-    <section id="demo" class="section">
-      <div class="container demo-inner" style="display:flex; flex-wrap:wrap; gap:40px; align-items:flex-start;">
+ <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
-        <!-- LEFT: Chatbot demo placeholder -->
-        <div style="flex:1; min-width:300px;">
-          <h2>Try the SimpleSwitch AI Demo</h2>
-          <p>See how AI handles document uploads, reads receipts/invoices, and organizes everything automatically.</p>
-
-          <div id="chatbot-demo"
-            style="border:1px solid #ddd; padding:20px; border-radius:10px; min-height:350px; background:white;">
-            <p style="color:#777; font-style:italic;">
-              Chatbot demo coming soon… this box will show the live AI conversation.
-            </p>
-          </div>
-        </div>
-
-        <!-- RIGHT: Workflow Diagram -->
-        <div style="flex:1; min-width:300px; background:#f9f9f9; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08);">
-          <h2>How the Automation Works</h2>
-          <ul style="list-style:none; padding:0; font-size:17px; line-height:1.6;">
-
-            <li>📤 <strong>1. Upload Document</strong></li>
-            <li>The business owner uploads a receipt, invoice, bill, estimate, or supply ticket.</li>
-            <br>
-
-            <li>🧠 <strong>2. AI Reads the Document</strong></li>
-            <li>AI extracts vendor, amount, date, job details, materials, and categories.</li>
-            <br>
-
-            <li>📂 <strong>3. Smart Classification</strong></li>
-            <li>AI identifies if it’s a receipt, invoice, bill, estimate (won/lost), or material slip.</li>
-            <br>
-
-            <li>📊 <strong>4. Updates Excel Automatically</strong></li>
-            <li>AI adds a new row to the business owner's personal Excel bookkeeping file.</li>
-            <br>
-
-            <li>🗂 <strong>5. Auto-Organized Storage</strong></li>
-            <li>Documents are filed into proper folders—no manual sorting needed.</li>
-            <br>
-
-            <li>📨 <strong>6. Email Confirmation</strong></li>
-            <li>The business owner receives a clean summary of the organized document.</li>
-            <br>
-
-            <li>📈 <strong>7. Optional Monthly Reports</strong></li>
-            <li>AI generates summaries, expense reports, and job profitability analysis.</li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section>
-    <!-- END DEMO SECTION -->
+<stripe-buy-button
+  buy-button-id="buy_btn_1ScSyeLcQOeL8O4d17LzGqmk"
+  publishable-key="pk_live_51SVFzQLcQOeL8O4dkvg7pGH2icP3u8n6rcTiUycx8QRBuvJPfO1bnoGE5PWK1xpHlwOS2TWiFAgQo0AOyamecweG00hWUBhlMr"
+>
+</stripe-buy-button>
 
 
     <!-- FREE AUDIT / LEAD FORM -->
